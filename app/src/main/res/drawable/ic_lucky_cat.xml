@@ -1,0 +1,94 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="140dp"
+    android:viewportWidth="120"
+    android:viewportHeight="140">
+    <!-- Top Hanging Loop (Red Ribbon) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M60,2 C64,2 67,5 67,9 L67,16 C67,20 64,23 60,23 C56,23 53,20 53,16 L53,9 C53,5 56,2 60,2 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#B71C1C"
+        android:strokeWidth="1.5"
+        android:pathData="M60,4 C62.5,4 65,6.5 65,9 L65,16 C65,18.5 62.5,21 60,21 C57.5,21 55,18.5 55,16 L55,9 C55,6.5 57.5,4 60,4 Z" />
+
+    <!-- Cat Body & Head -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,20 C36,20 30,42 30,76 C30,110 38,136 60,136 C82,136 90,110 90,76 C90,42 84,20 60,20 Z" />
+
+    <!-- Left Ear -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,32 L22,12 C21,10 24,8 26,10 L44,24 Z" />
+    <path
+        android:fillColor="#FF8A80"
+        android:pathData="M32,28 L26,16 C25,15 27,14 28,15 L40,24 Z" />
+
+    <!-- Right Ear -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M88,32 L98,12 C99,10 96,8 94,10 L76,24 Z" />
+    <path
+        android:fillColor="#FF8A80"
+        android:pathData="M88,28 L94,16 C95,15 93,14 92,15 L80,24 Z" />
+
+    <!-- Calico Spot (Orange on right ear/head) -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M76,24 C82,24 88,30 88,38 C88,46 80,48 74,44 C68,40 70,24 76,24 Z" />
+
+    <!-- Raised Waving Left Paw -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,68 C22,64 16,52 20,42 C23,35 30,36 34,44 L38,62 Z" />
+    <path
+        android:fillColor="#FF8A80"
+        android:pathData="M24,46m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+
+    <!-- Red Collar with Golden Bell -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M40,78 C48,84 72,84 80,78 L82,84 C72,92 48,92 38,84 Z" />
+    <!-- Bell -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M60,88m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0" />
+    <path
+        android:fillColor="#B8860B"
+        android:pathData="M60,89m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+
+    <!-- Golden Coin (Koban) in Right Paw -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M52,98 C52,94 68,94 68,98 L68,124 C68,128 52,128 52,124 Z" />
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M56,104 H64 V118 H56 Z" />
+
+    <!-- Eyes (Happy Closed Curves) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#212121"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M44,52 C46,47 50,47 52,52" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#212121"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M68,52 C70,47 74,47 76,52" />
+
+    <!-- Cute Whiskers & Nose -->
+    <path
+        android:fillColor="#FF8A80"
+        android:pathData="M60,57m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#212121"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M34,55 L42,57 M33,61 L41,60 M78,57 L86,55 M79,60 L87,61" />
+</vector>

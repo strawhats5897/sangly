@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Screen Notch at top -->
+    <path
+        android:fillColor="#222638"
+        android:pathData="M38,20 C38,26 42,30 48,30 L60,30 C66,30 70,26 70,20 Z" />
+
+    <!-- Hanging rope -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:pathData="M54,26 C53,40 56,52 54,60" />
+
+    <!-- Hanging Charm (Glowing orb / eye) -->
+    <path
+        android:fillColor="#7C4DFF"
+        android:pathData="M54,72m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,72m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,72m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+    <path
+        android:fillColor="#111118"
+        android:pathData="M54,72m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+</vector>

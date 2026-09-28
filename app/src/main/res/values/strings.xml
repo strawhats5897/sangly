@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sangly</string>
+    <string name="tagline">Bring your phone screen &amp; notch to life</string>
+    
+    <string name="status_active">Sangly is Active</string>
+    <string name="status_inactive">Sangly is Paused</string>
+    <string name="enable_hangly">Enable Sangly</string>
+    <string name="disable_hangly">Stop Sangly</string>
+
+    <!-- Permissions -->
+    <string name="permissions_title">Required Permissions</string>
+    <string name="overlay_perm_title">Display Over Other Apps</string>
+    <string name="overlay_perm_desc">Allows your Sangly charm to float on top of any screen.</string>
+    <string name="overlay_perm_grant">Grant Overlay</string>
+    <string name="overlay_perm_granted">Overlay Granted ✓</string>
+
+    <string name="accessibility_perm_title">Pull Gestures (Accessibility)</string>
+    <string name="accessibility_perm_desc">Pulls down Notifications (left side) and Quick Settings (right side).</string>
+    <string name="accessibility_perm_grant">Enable Gestures</string>
+    <string name="accessibility_perm_granted">Gestures Active ✓</string>
+
+    <!-- Charms -->
+    <string name="charms_title">Select Sangly Charm</string>
+    <string name="charm_spiderman">Spider-Man</string>
+    <string name="charm_evil_eye">Evil Eye (Nazar)</string>
+    <string name="charm_cap_shield">Captain America</string>
+    <string name="charm_lucky_cat">Lucky Cat</string>
+    <string name="charm_ghost">Cute Ghost</string>
+    <string name="charm_custom">Custom Photo</string>
+    <string name="pick_custom_photo">Pick Custom Photo</string>
+    <string name="custom_photo_hint">use images with removed background for better experience</string>
+
+    <!-- Customizations -->
+    <string name="customization_title">Rope &amp; Charm Customization</string>
+    <string name="position_label">Screen Position (Left to Right)</string>
+    <string name="position_left">Left (20%)</string>
+    <string name="position_center">Center Notch (50%)</string>
+    <string name="position_right">Right (80%)</string>
+    <string name="rope_length_label">Rope Length</string>
+    <string name="rope_thickness_label">Rope Thickness</string>
+    <string name="charm_size_label">Charm Size</string>
+    <string name="rope_color_label">Rope Color</string>
+    <string name="gravity_label">Gravity Intensity (75% Earth)</string>
+    <string name="tilt_physics_label">Tilt &amp; Motion Physics</string>
+    <string name="tilt_physics_desc">Swings dynamically when tilting or moving the phone</string>
+
+    <!-- Gestures Info -->
+    <string name="pull_gestures_title">Interactive Pull-Down Actions</string>
+    <string name="pull_left_info">🎯 When placed on the Left side: Pull down to expand Notifications.</string>
+    <string name="pull_right_info">⚡ When placed on the Right side: Pull down to expand Quick Settings.</string>
+    <string name="test_notifications">Test Notifications</string>
+    <string name="test_quick_settings">Test Quick Settings</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_label">Sangly Screen Actions</string>
+    <string name="accessibility_service_description">Enables Sangly pull-down gestures to trigger Notifications and Quick Settings.</string>
+
+    <!-- Notification Channel -->
+    <string name="channel_name">Sangly Active Service</string>
+    <string name="channel_description">Maintains the floating Sangly charm on screen</string>
+</resources>

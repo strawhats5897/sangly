@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand & Accent Colors -->
+    <color name="primary">#9D72FF</color>
+    <color name="primary_variant">#7C4DFF</color>
+    <color name="secondary">#00E5FF</color>
+    <color name="secondary_variant">#00B0FF</color>
+    
+    <!-- Dark Theme Surface & Text Colors -->
+    <color name="background_main">#0F111A</color>
+    <color name="surface_main">#181B28</color>
+    <color name="surface_card">#222638</color>
+    <color name="surface_elevated">#2C3149</color>
+    <color name="divider_color">#2F3652</color>
+
+    <color name="text_primary">#F5F6FA</color>
+    <color name="text_secondary">#9DA5BD</color>
+    <color name="text_muted">#6C748E</color>
+
+    <!-- Backward compatibility aliases -->
+    <color name="background_dark">@color/background_main</color>
+    <color name="surface_dark">@color/surface_main</color>
+</resources>

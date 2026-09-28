@@ -1,0 +1,99 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="160dp"
+    android:viewportWidth="120"
+    android:viewportHeight="160">
+
+    <!-- Top web hook & inverted boots -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M60,0 L60,18" />
+
+    <!-- Spider-Man Inverted Legs (Bent at knees, clinging/hanging) -->
+    <!-- Left Leg (Thigh blue, Shin/Boot red) -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M52,38 L42,16 C41,14 44,12 47,14 L56,34 Z" />
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M44,18 L50,6 C52,4 58,6 59,10 L56,18 Z" />
+
+    <!-- Right Leg (Thigh blue, Shin/Boot red) -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M68,38 L78,16 C79,14 76,12 73,14 L64,34 Z" />
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M76,18 L70,6 C68,4 62,6 61,10 L64,18 Z" />
+
+    <!-- Spider Web Knot wrapping feet -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M60,14m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+
+    <!-- Torso (Upside down, hips at y=36, chest at y=60, shoulders at y=76) -->
+    <!-- Blue Torso Sides -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M46,38 L40,65 L46,75 L74,75 L80,65 L74,38 Z" />
+
+    <!-- Red Torso Center Vest -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M50,38 L47,65 L52,76 L68,76 L73,65 L70,38 Z" />
+
+    <!-- Inverted Arms -->
+    <!-- Left Arm crossed or posed -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M42,72 L32,60 C30,57 26,60 28,64 L36,80 C38,84 44,82 44,78 Z" />
+    <!-- Right Arm in web-shooter pose -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M78,72 L88,60 C90,57 94,60 92,64 L84,80 C82,84 76,82 76,78 Z" />
+
+    <!-- Black Spider Emblem on Chest (Inverted) -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M60,56 L57,60 L60,63 L63,60 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1A1A1A"
+        android:strokeWidth="1.2"
+        android:pathData="M58,58 L52,53 M58,60 L51,60 M58,61 L52,66 M62,58 L68,53 M62,60 L69,60 M62,61 L68,66" />
+
+    <!-- Head (Inverted, chin at y=76, crown at y=124) -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M60,74 C42,74 38,90 38,104 C38,122 50,132 60,132 C70,132 82,122 82,104 C82,90 78,74 60,74 Z" />
+
+    <!-- Web Lines on Mask -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#900C0C"
+        android:strokeWidth="1"
+        android:pathData="M60,74 L60,132 M38,104 L82,104 M43,90 C50,96 70,96 77,90 M41,118 C50,112 70,112 79,118" />
+
+    <!-- Mask Left Eye (Inverted perspective) -->
+    <!-- Black Outer Border -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M57,94 L44,102 C43,103 44,107 48,112 L57,106 C58,105 58,95 57,94 Z" />
+    <!-- White Eye Lens -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,96 L46,102 C45,104 46,106 49,110 L56,105 Z" />
+
+    <!-- Mask Right Eye -->
+    <!-- Black Outer Border -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M63,94 L76,102 C77,103 76,107 72,112 L63,106 C62,105 62,95 63,94 Z" />
+    <!-- White Eye Lens -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,96 L74,102 C75,104 74,106 71,110 L64,105 Z" />
+
+</vector>

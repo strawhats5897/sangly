@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="136dp"
+    android:viewportWidth="120"
+    android:viewportHeight="136">
+
+    <!-- Top Hanging Silver Ring -->
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M60,2 C64.4,2 68,5.6 68,10 L68,16 C68,20.4 64.4,24 60,24 C55.6,24 52,20.4 52,16 L52,10 C52,5.6 55.6,2 60,2 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#78909C"
+        android:strokeWidth="1.5"
+        android:pathData="M60,4 C63.3,4 66,6.7 66,10 L66,16 C66,19.3 63.3,22 60,22 C56.7,22 54,19.3 54,16 L54,10 C54,6.7 56.7,4 60,4 Z" />
+
+    <!-- Outer Red Ring -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M60,76m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0" />
+
+    <!-- Outer White Ring -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M60,76m-42,0a42,42 0,1 1,84 0a42,42 0,1 1,-84 0" />
+
+    <!-- Inner Red Ring -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M60,76m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" />
+
+    <!-- Center Blue Circle -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M60,76m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0" />
+
+    <!-- Center 5-Point Star -->
+    <!-- Star Points computed around center (60, 76) radius 14 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,62 L63.8,72.4 L74.8,72.8 L66.1,79.5 L69.2,90.2 L60,84 L50.8,90.2 L53.9,79.5 L45.2,72.8 L56.2,72.4 Z" />
+
+    <!-- Metallic Shield Sheen / Highlight -->
+    <path
+        android:fillColor="#25FFFFFF"
+        android:pathData="M60,22 C90,22 114,46 114,76 C114,81 113,86 111,90 C106,53 86,28 60,22 Z" />
+    <path
+        android:fillColor="#15FFFFFF"
+        android:pathData="M30,38 C40,28 50,23 60,22 C35,27 16,49 10,76 C16,60 22,48 30,38 Z" />
+</vector>

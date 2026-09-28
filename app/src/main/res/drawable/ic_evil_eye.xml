@@ -1,0 +1,48 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="136dp"
+    android:viewportWidth="120"
+    android:viewportHeight="136">
+    <!-- Top Hanging Loop -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M60,2 C64.4,2 68,5.6 68,10 L68,16 C68,20.4 64.4,24 60,24 C55.6,24 52,20.4 52,16 L52,10 C52,5.6 55.6,2 60,2 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#B8860B"
+        android:strokeWidth="1.5"
+        android:pathData="M60,4 C63.3,4 66,6.7 66,10 L66,16 C66,19.3 63.3,22 60,22 C56.7,22 54,19.3 54,16 L54,10 C54,6.7 56.7,4 60,4 Z" />
+
+    <!-- Outer Deep Blue Glass Circle -->
+    <path
+        android:fillColor="#15297C"
+        android:pathData="M60,76m-56,0a56,56 0,1 1,112 0a56,56 0,1 1,-112 0" />
+    
+    <!-- Outer Rim Shading -->
+    <path
+        android:fillColor="#0D1B54"
+        android:pathData="M60,20 C90.9,20 116,45.1 116,76 C116,81 115.3,85.8 114.1,90.4 C110.8,49.2 88.5,23.5 60,20 Z" />
+
+    <!-- Light Cyan / Turquoise Ring -->
+    <path
+        android:fillColor="#00B0FF"
+        android:pathData="M60,76m-42,0a42,42 0,1 1,84 0a42,42 0,1 1,-84 0" />
+
+    <!-- Pristine White Ring -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,76m-27,0a27,27 0,1 1,54 0a27,27 0,1 1,-54 0" />
+
+    <!-- Black Pupil (Slightly Organic Teardrop/Oval) -->
+    <path
+        android:fillColor="#111118"
+        android:pathData="M60,76m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0" />
+
+    <!-- Gloss Highlight Spherical Reflection -->
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M48,58 C53,52 61,50 67,52 C64,55 58,57 52,63 C49,66 47,63 48,58 Z" />
+    <path
+        android:fillColor="#D0FFFFFF"
+        android:pathData="M52,60m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+</vector>

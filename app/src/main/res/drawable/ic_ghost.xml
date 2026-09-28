@@ -1,0 +1,54 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="140dp"
+    android:viewportWidth="120"
+    android:viewportHeight="140">
+    <!-- Top Hanging Loop (Purple ribbon) -->
+    <path
+        android:fillColor="#7C4DFF"
+        android:pathData="M60,2 C64,2 67,5 67,9 L67,16 C67,20 64,23 60,23 C56,23 53,20 53,16 L53,9 C53,5 56,2 60,2 Z" />
+
+    <!-- Ghost Body -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M60,20 C35,20 28,45 28,80 C28,115 32,135 38,135 C44,135 48,125 54,125 C60,125 64,135 70,135 C76,135 80,125 86,125 C92,125 96,135 102,135 C108,135 112,115 112,80 C112,45 85,20 60,20 Z" />
+
+    <!-- Ghost Floating Arms -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M28,75 C18,72 12,82 18,88 C24,94 30,85 28,75 Z" />
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M92,75 C102,72 108,82 102,88 C96,94 90,85 92,75 Z" />
+
+    <!-- Cute Big Eyes -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M48,64m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,62m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M72,64m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70,62m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+
+    <!-- Cute Rosy Cheeks -->
+    <path
+        android:fillColor="#FF80AB"
+        android:pathData="M42,75m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+    <path
+        android:fillColor="#FF80AB"
+        android:pathData="M78,75m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+
+    <!-- Smiling Mouth -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1E293B"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M56,74 C58,78 62,78 64,74" />
+</vector>
